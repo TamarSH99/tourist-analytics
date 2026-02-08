@@ -1,35 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import registryData from './assets/data/registry.json';
+import statisticsData from './assets/data/statistics.json';
+import type { StatisticsDB } from './types/data';
+import type { RegistryDB } from './types/data';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const registry = registryData as unknown as RegistryDB;
+  const statistics = statisticsData as unknown as StatisticsDB;
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+      <h1>Foundation Phase: Success</h1>
+      <p>Testing Registry Data Load:</p>
+      <div style={{ background: '#f0f0f0', padding: '15px', borderRadius: '8px' }}>
+        <strong>Region:</strong> {registry["GE-IM"].name} <br />
+        <strong>Monuments:</strong> {registry["GE-IM"].monuments.join(", ")} <br />
+        <strong>Statistics of 2025: </strong> {statistics["2025"]["GE-IM"].total_visitors} visitors <br/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;

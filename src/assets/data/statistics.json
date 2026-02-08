@@ -1,0 +1,7214 @@
+{
+  "2020": {
+    "GE-AB": {
+      "id": "GE-AB",
+      "total_visitors": 329969,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 25081,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 16888,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 23834,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 21207,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 14496,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 33735,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 27050,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 64525,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 15955,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 27202,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 29320,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 30676,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 164984,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 65993
+            },
+            {
+              "label": "Poland",
+              "value": 98990
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 98990,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 49495
+            },
+            {
+              "label": "Gulf States",
+              "value": 49495
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 65993
+        }
+      ]
+    },
+    "GE-AJ": {
+      "id": "GE-AJ",
+      "total_visitors": 344958,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 28522,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 17697,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 11214,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 14556,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 24707,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 73630,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 56005,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 25970,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 15274,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 20036,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 17348,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 39999,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 172479,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 68991
+            },
+            {
+              "label": "Poland",
+              "value": 103487
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 103487,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 51743
+            },
+            {
+              "label": "Gulf States",
+              "value": 51743
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 68991
+        }
+      ]
+    },
+    "GE-GU": {
+      "id": "GE-GU",
+      "total_visitors": 376178,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 33853,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 42598,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 19175,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24648,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 17723,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 67995,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 35550,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 60187,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 10082,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 12668,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 19833,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 31866,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 188089,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 75235
+            },
+            {
+              "label": "Poland",
+              "value": 112853
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 112853,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 56426
+            },
+            {
+              "label": "Gulf States",
+              "value": 56426
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 75235
+        }
+      ]
+    },
+    "GE-IM": {
+      "id": "GE-IM",
+      "total_visitors": 352410,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 15073,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 29190,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 26378,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 18000,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 25796,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 49645,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 35240,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 47450,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 24174,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 12513,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 26722,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 42229,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 176205,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 70482
+            },
+            {
+              "label": "Poland",
+              "value": 105723
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 105723,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 52861
+            },
+            {
+              "label": "Gulf States",
+              "value": 52861
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 70482
+        }
+      ]
+    },
+    "GE-KA": {
+      "id": "GE-KA",
+      "total_visitors": 385956,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 21135,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 44922,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 14913,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25541,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 20161,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 49257,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 41455,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 72870,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18942,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 10300,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 24783,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 41677,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 192978,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 77191
+            },
+            {
+              "label": "Poland",
+              "value": 115786
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 115786,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 57893
+            },
+            {
+              "label": "Gulf States",
+              "value": 57893
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 77191
+        }
+      ]
+    },
+    "GE-KK": {
+      "id": "GE-KK",
+      "total_visitors": 297901,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 30087,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 17451,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 27512,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 13486,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 14592,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 39000,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 30820,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 68067,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 12688,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 14467,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 12609,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 17122,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 148950,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 59580
+            },
+            {
+              "label": "Poland",
+              "value": 89370
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 89370,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 44685
+            },
+            {
+              "label": "Gulf States",
+              "value": 44685
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 59580
+        }
+      ]
+    },
+    "GE-MM": {
+      "id": "GE-MM",
+      "total_visitors": 390228,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 42987,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 29556,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 29700,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 19425,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 24563,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 62055,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 38250,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 39257,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 16487,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 28566,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18003,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 41379,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 195114,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 78045
+            },
+            {
+              "label": "Poland",
+              "value": 117068
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 117068,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 58534
+            },
+            {
+              "label": "Gulf States",
+              "value": 58534
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 78045
+        }
+      ]
+    },
+    "GE-RL": {
+      "id": "GE-RL",
+      "total_visitors": 330241,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 23418,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 21223,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 11002,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 19084,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 26703,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 51457,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 41892,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 49180,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 25592,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 22243,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 11714,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 26733,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 165120,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 66048
+            },
+            {
+              "label": "Poland",
+              "value": 99072
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 99072,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 49536
+            },
+            {
+              "label": "Gulf States",
+              "value": 49536
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 66048
+        }
+      ]
+    },
+    "GE-SZ": {
+      "id": "GE-SZ",
+      "total_visitors": 423565,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 25428,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 36252,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 26142,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 26562,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 25977,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 59652,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 59297,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 74717,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18474,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 12093,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 16118,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 42853,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 211782,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 84713
+            },
+            {
+              "label": "Poland",
+              "value": 127069
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 127069,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 63534
+            },
+            {
+              "label": "Gulf States",
+              "value": 63534
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 84713
+        }
+      ]
+    },
+    "GE-SJ": {
+      "id": "GE-SJ",
+      "total_visitors": 318263,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 19123,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 16453,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 28157,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 11769,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 11434,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 54220,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 64072,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 32925,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 11029,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 16836,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 15041,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 37204,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 159131,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 63652
+            },
+            {
+              "label": "Poland",
+              "value": 95478
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 95478,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 47739
+            },
+            {
+              "label": "Gulf States",
+              "value": 47739
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 63652
+        }
+      ]
+    },
+    "GE-SK": {
+      "id": "GE-SK",
+      "total_visitors": 405131,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 29808,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 30019,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 24276,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 20965,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 13405,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 71902,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 55287,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 63772,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 14870,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 13421,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 24019,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 43387,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 202565,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 81026
+            },
+            {
+              "label": "Poland",
+              "value": 121539
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 121539,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 60769
+            },
+            {
+              "label": "Gulf States",
+              "value": 60769
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 81026
+        }
+      ]
+    },
+    "GE-TB": {
+      "id": "GE-TB",
+      "total_visitors": 385530,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 43308,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 34473,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 24526,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 14795,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 21983,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 69695,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 47690,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 33215,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18394,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 22483,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 19676,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 35292,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 192765,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 77106
+            },
+            {
+              "label": "Poland",
+              "value": 115659
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 115659,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 57829
+            },
+            {
+              "label": "Gulf States",
+              "value": 57829
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 77106
+        }
+      ]
+    }
+  },
+  "2021": {
+    "GE-AB": {
+      "id": "GE-AB",
+      "total_visitors": 376396,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 34069,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 30874,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 23464,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 17659,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 15197,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 52329,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 65518,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 33558,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 12738,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 22523,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 32893,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 35574,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 188198,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 75279
+            },
+            {
+              "label": "Poland",
+              "value": 112918
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 112918,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 56459
+            },
+            {
+              "label": "Gulf States",
+              "value": 56459
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 75279
+        }
+      ]
+    },
+    "GE-AJ": {
+      "id": "GE-AJ",
+      "total_visitors": 410924,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 26098,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 41718,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 23542,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 16230,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 32903,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 70842,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 78911,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 34537,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 29195,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 20045,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 15312,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 21591,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 205462,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 82184
+            },
+            {
+              "label": "Poland",
+              "value": 123277
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 123277,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 61638
+            },
+            {
+              "label": "Gulf States",
+              "value": 61638
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 82184
+        }
+      ]
+    },
+    "GE-GU": {
+      "id": "GE-GU",
+      "total_visitors": 367779,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 16635,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 17222,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 31380,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24000,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 22718,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 57752,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 67058,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 43670,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18532,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 31306,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 17263,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 20243,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 183889,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 73555
+            },
+            {
+              "label": "Poland",
+              "value": 110333
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 110333,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 55166
+            },
+            {
+              "label": "Gulf States",
+              "value": 55166
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 73555
+        }
+      ]
+    },
+    "GE-IM": {
+      "id": "GE-IM",
+      "total_visitors": 386737,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 21096,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 38346,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 24502,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24321,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 13329,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 49192,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 67089,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 61693,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18293,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 31992,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 13935,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 22949,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 193368,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 77347
+            },
+            {
+              "label": "Poland",
+              "value": 116021
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 116021,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 58010
+            },
+            {
+              "label": "Gulf States",
+              "value": 58010
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 77347
+        }
+      ]
+    },
+    "GE-KA": {
+      "id": "GE-KA",
+      "total_visitors": 409999,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 43286,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 35450,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 11093,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 21058,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 26679,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 62763,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 39270,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 76161,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 20028,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 12810,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 16163,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 45238,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 204999,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 81999
+            },
+            {
+              "label": "Poland",
+              "value": 122999
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 122999,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 61499
+            },
+            {
+              "label": "Gulf States",
+              "value": 61499
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 81999
+        }
+      ]
+    },
+    "GE-KK": {
+      "id": "GE-KK",
+      "total_visitors": 347538,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 45234,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 17151,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 18621,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 16819,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 30155,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 54538,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 32397,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 40455,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 25471,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 22665,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 26016,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 18016,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 173769,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 69507
+            },
+            {
+              "label": "Poland",
+              "value": 104261
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 104261,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 52130
+            },
+            {
+              "label": "Gulf States",
+              "value": 52130
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 69507
+        }
+      ]
+    },
+    "GE-MM": {
+      "id": "GE-MM",
+      "total_visitors": 403759,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 23380,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 20763,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 11489,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24238,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 16311,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 65601,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 70059,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 55132,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 32365,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 25215,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 28845,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 30361,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 201879,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 80751
+            },
+            {
+              "label": "Poland",
+              "value": 121127
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 121127,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 60563
+            },
+            {
+              "label": "Gulf States",
+              "value": 60563
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 80751
+        }
+      ]
+    },
+    "GE-RL": {
+      "id": "GE-RL",
+      "total_visitors": 389537,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 40093,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 32377,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 14221,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 28552,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 21177,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 56960,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 54986,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 47027,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 12861,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 11458,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 28422,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 41403,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 194768,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 77907
+            },
+            {
+              "label": "Poland",
+              "value": 116861
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 116861,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 58430
+            },
+            {
+              "label": "Gulf States",
+              "value": 58430
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 77907
+        }
+      ]
+    },
+    "GE-SZ": {
+      "id": "GE-SZ",
+      "total_visitors": 387574,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 19230,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 41584,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 22965,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 27371,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 16237,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 78410,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 32826,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 67457,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 20482,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 11563,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 28745,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 20704,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 193787,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 77514
+            },
+            {
+              "label": "Poland",
+              "value": 116272
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 116272,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 58136
+            },
+            {
+              "label": "Gulf States",
+              "value": 58136
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 77514
+        }
+      ]
+    },
+    "GE-SJ": {
+      "id": "GE-SJ",
+      "total_visitors": 378624,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 21115,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 17244,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 17128,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25550,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 16826,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 56493,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 48419,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 77013,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 14207,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 30010,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 29165,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 25454,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 189312,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 75724
+            },
+            {
+              "label": "Poland",
+              "value": 113587
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 113587,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 56793
+            },
+            {
+              "label": "Gulf States",
+              "value": 56793
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 75724
+        }
+      ]
+    },
+    "GE-SK": {
+      "id": "GE-SK",
+      "total_visitors": 377610,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 21327,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 25555,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 13531,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24747,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 20571,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 76722,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 31449,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 67190,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 14388,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 29132,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 27641,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 25357,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 188805,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 75522
+            },
+            {
+              "label": "Poland",
+              "value": 113283
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 113283,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 56641
+            },
+            {
+              "label": "Gulf States",
+              "value": 56641
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 75522
+        }
+      ]
+    },
+    "GE-TB": {
+      "id": "GE-TB",
+      "total_visitors": 429578,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 23987,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 44045,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 17629,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 23523,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 32093,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 41929,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 79453,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 71266,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 16930,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 30090,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18480,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 30153,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 214789,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 85915
+            },
+            {
+              "label": "Poland",
+              "value": 128873
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 128873,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 64436
+            },
+            {
+              "label": "Gulf States",
+              "value": 64436
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 85915
+        }
+      ]
+    }
+  },
+  "2022": {
+    "GE-AB": {
+      "id": "GE-AB",
+      "total_visitors": 400806,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 36239,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 19035,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 14364,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 23586,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 29816,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 30135,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 76584,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 64923,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 20443,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 28880,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 25159,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 31642,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 200403,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 80161
+            },
+            {
+              "label": "Poland",
+              "value": 120241
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 120241,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 60120
+            },
+            {
+              "label": "Gulf States",
+              "value": 60120
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 80161
+        }
+      ]
+    },
+    "GE-AJ": {
+      "id": "GE-AJ",
+      "total_visitors": 471164,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 37191,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 50778,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 33181,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24169,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 26205,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 74511,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 89451,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 50364,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 12428,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 16124,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 32426,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 24336,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 235582,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 94232
+            },
+            {
+              "label": "Poland",
+              "value": 141349
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 141349,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 70674
+            },
+            {
+              "label": "Gulf States",
+              "value": 70674
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 94232
+        }
+      ]
+    },
+    "GE-GU": {
+      "id": "GE-GU",
+      "total_visitors": 361590,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 29115,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 25245,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 22311,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 15034,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 25108,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 61203,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 35232,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 44397,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 24111,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 35854,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 16898,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 27082,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 180795,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 72318
+            },
+            {
+              "label": "Poland",
+              "value": 108477
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 108477,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 54238
+            },
+            {
+              "label": "Gulf States",
+              "value": 54238
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 72318
+        }
+      ]
+    },
+    "GE-IM": {
+      "id": "GE-IM",
+      "total_visitors": 410868,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 34317,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 26056,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 23359,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24424,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 19075,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 77313,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 47151,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 39867,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 34658,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 25908,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 13326,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 45414,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 205434,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 82173
+            },
+            {
+              "label": "Poland",
+              "value": 123260
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 123260,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 61630
+            },
+            {
+              "label": "Gulf States",
+              "value": 61630
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 82173
+        }
+      ]
+    },
+    "GE-KA": {
+      "id": "GE-KA",
+      "total_visitors": 410578,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 36262,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 38316,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 22201,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 14517,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 25713,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 88509,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 63108,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 30705,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22064,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 13214,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 13048,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 42921,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 205289,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 82115
+            },
+            {
+              "label": "Poland",
+              "value": 123173
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 123173,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 61586
+            },
+            {
+              "label": "Gulf States",
+              "value": 61586
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 82115
+        }
+      ]
+    },
+    "GE-KK": {
+      "id": "GE-KK",
+      "total_visitors": 416884,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 51638,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 43599,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 32985,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 16796,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 13694,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 61092,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 40386,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 52137,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18208,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 26119,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 21397,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 38833,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 208442,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 83376
+            },
+            {
+              "label": "Poland",
+              "value": 125065
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 125065,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 62532
+            },
+            {
+              "label": "Gulf States",
+              "value": 62532
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 83376
+        }
+      ]
+    },
+    "GE-MM": {
+      "id": "GE-MM",
+      "total_visitors": 482673,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 38637,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 30900,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 25536,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 35749,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 27051,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 71052,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 71241,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 78564,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22352,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 15735,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 34470,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 31386,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 241336,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 96534
+            },
+            {
+              "label": "Poland",
+              "value": 144801
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 144801,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 72400
+            },
+            {
+              "label": "Gulf States",
+              "value": 72400
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 96534
+        }
+      ]
+    },
+    "GE-RL": {
+      "id": "GE-RL",
+      "total_visitors": 479536,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 40950,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 43997,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 25812,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 23445,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 16290,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 73452,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 55491,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 87378,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 33156,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 16468,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 19447,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 43650,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 239768,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 95907
+            },
+            {
+              "label": "Poland",
+              "value": 143860
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 143860,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 71930
+            },
+            {
+              "label": "Gulf States",
+              "value": 71930
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 95907
+        }
+      ]
+    },
+    "GE-SZ": {
+      "id": "GE-SZ",
+      "total_visitors": 442872,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 27262,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 45894,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 20257,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25460,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 13753,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 89025,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 43335,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 69153,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22036,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 18750,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18399,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 49548,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 221436,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 88574
+            },
+            {
+              "label": "Poland",
+              "value": 132861
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 132861,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 66430
+            },
+            {
+              "label": "Gulf States",
+              "value": 66430
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 88574
+        }
+      ]
+    },
+    "GE-SJ": {
+      "id": "GE-SJ",
+      "total_visitors": 454938,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 41112,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 37953,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 30640,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 28452,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 14481,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 62553,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 81765,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 48936,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 34348,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 17984,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 15426,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 41288,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 227469,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 90987
+            },
+            {
+              "label": "Poland",
+              "value": 136481
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 136481,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 68240
+            },
+            {
+              "label": "Gulf States",
+              "value": 68240
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 90987
+        }
+      ]
+    },
+    "GE-SK": {
+      "id": "GE-SK",
+      "total_visitors": 400471,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 28863,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 26533,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 12202,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 21884,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 14281,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 39894,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 76971,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 84309,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 25521,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 18417,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 21290,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 30306,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 200235,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 80094
+            },
+            {
+              "label": "Poland",
+              "value": 120141
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 120141,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 60070
+            },
+            {
+              "label": "Gulf States",
+              "value": 60070
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 80094
+        }
+      ]
+    },
+    "GE-TB": {
+      "id": "GE-TB",
+      "total_visitors": 424935,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 23110,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 47932,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 22389,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 13723,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 13832,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 57126,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 50736,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 84645,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22995,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 18624,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 16088,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 53735,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 212467,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 84987
+            },
+            {
+              "label": "Poland",
+              "value": 127480
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 127480,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 63740
+            },
+            {
+              "label": "Gulf States",
+              "value": 63740
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 84987
+        }
+      ]
+    }
+  },
+  "2023": {
+    "GE-AB": {
+      "id": "GE-AB",
+      "total_visitors": 425371,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 53525,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 22438,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 30563,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 18814,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 22010,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 54999,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 57011,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 44307,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 16558,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 37421,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 24373,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 43352,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 212685,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 85074
+            },
+            {
+              "label": "Poland",
+              "value": 127611
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 127611,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 63805
+            },
+            {
+              "label": "Gulf States",
+              "value": 63805
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 85074
+        }
+      ]
+    },
+    "GE-AJ": {
+      "id": "GE-AJ",
+      "total_visitors": 412988,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 44282,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 30150,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 31873,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 19056,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 22360,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 37033,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 91526,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 54999,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 15956,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 20618,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18066,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 27069,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 206494,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 82597
+            },
+            {
+              "label": "Poland",
+              "value": 123896
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 123896,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 61948
+            },
+            {
+              "label": "Gulf States",
+              "value": 61948
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 82597
+        }
+      ]
+    },
+    "GE-GU": {
+      "id": "GE-GU",
+      "total_visitors": 505670,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 57484,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 51226,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 33129,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 20716,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 31352,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 81383,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 66196,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 32857,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 26009,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 14238,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 37727,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 53353,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 252835,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 101134
+            },
+            {
+              "label": "Poland",
+              "value": 151701
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 151701,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 75850
+            },
+            {
+              "label": "Gulf States",
+              "value": 75850
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 101134
+        }
+      ]
+    },
+    "GE-IM": {
+      "id": "GE-IM",
+      "total_visitors": 502788,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 45472,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 34891,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 17170,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25412,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 28805,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 71019,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 83200,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 65305,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 32164,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 38430,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 32956,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 27964,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 251394,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 100557
+            },
+            {
+              "label": "Poland",
+              "value": 150836
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 150836,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 75418
+            },
+            {
+              "label": "Gulf States",
+              "value": 75418
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 100557
+        }
+      ]
+    },
+    "GE-KA": {
+      "id": "GE-KA",
+      "total_visitors": 477202,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 31182,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 54262,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 13020,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 37285,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 13462,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 88273,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 41518,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 78500,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 26772,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 15204,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 27194,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 50530,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 238601,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 95440
+            },
+            {
+              "label": "Poland",
+              "value": 143160
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 143160,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 71580
+            },
+            {
+              "label": "Gulf States",
+              "value": 71580
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 95440
+        }
+      ]
+    },
+    "GE-KK": {
+      "id": "GE-KK",
+      "total_visitors": 500597,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 44789,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 51212,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 24609,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 29055,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 36492,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 82949,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 41226,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 76069,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 35781,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 17898,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 37168,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 23349,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 250298,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 100119
+            },
+            {
+              "label": "Poland",
+              "value": 150179
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 150179,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 75089
+            },
+            {
+              "label": "Gulf States",
+              "value": 75089
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 100119
+        }
+      ]
+    },
+    "GE-MM": {
+      "id": "GE-MM",
+      "total_visitors": 431318,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 34497,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 52384,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 18131,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25811,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 37196,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 65279,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 52208,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 37807,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 13508,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 25610,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 22327,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 46560,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 215659,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 86263
+            },
+            {
+              "label": "Poland",
+              "value": 129395
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 129395,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 64697
+            },
+            {
+              "label": "Gulf States",
+              "value": 64697
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 86263
+        }
+      ]
+    },
+    "GE-RL": {
+      "id": "GE-RL",
+      "total_visitors": 486652,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 35443,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 52993,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 31304,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 38984,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 38691,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 43329,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 83651,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 56680,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 28199,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 15736,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 20178,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 41464,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 243326,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 97330
+            },
+            {
+              "label": "Poland",
+              "value": 145995
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 145995,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 72997
+            },
+            {
+              "label": "Gulf States",
+              "value": 72997
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 97330
+        }
+      ]
+    },
+    "GE-SZ": {
+      "id": "GE-SZ",
+      "total_visitors": 515029,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 54738,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 23591,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 23627,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 29959,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 20880,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 96700,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 82576,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 86203,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 15999,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 26327,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 21798,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 32631,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 257514,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 103005
+            },
+            {
+              "label": "Poland",
+              "value": 154508
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 154508,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 77254
+            },
+            {
+              "label": "Gulf States",
+              "value": 77254
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 103005
+        }
+      ]
+    },
+    "GE-SJ": {
+      "id": "GE-SJ",
+      "total_visitors": 422509,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 34524,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 23554,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 24009,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 27068,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 30956,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 66166,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 33163,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 82696,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 21140,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 14489,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 25721,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 39023,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 211254,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 84501
+            },
+            {
+              "label": "Poland",
+              "value": 126752
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 126752,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 63376
+            },
+            {
+              "label": "Gulf States",
+              "value": 63376
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 84501
+        }
+      ]
+    },
+    "GE-SK": {
+      "id": "GE-SK",
+      "total_visitors": 434456,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 38691,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 49079,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 29519,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 28415,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 21036,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 52302,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 50518,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 53433,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 18343,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 28992,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 15687,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 48441,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 217228,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 86891
+            },
+            {
+              "label": "Poland",
+              "value": 130336
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 130336,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 65168
+            },
+            {
+              "label": "Gulf States",
+              "value": 65168
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 86891
+        }
+      ]
+    },
+    "GE-TB": {
+      "id": "GE-TB",
+      "total_visitors": 427928,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 40310,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 21990,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 33677,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 20837,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 17897,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 77551,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 38512,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 89498,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 34695,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 14843,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18398,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 19720,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 213964,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 85585
+            },
+            {
+              "label": "Poland",
+              "value": 128378
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 128378,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 64189
+            },
+            {
+              "label": "Gulf States",
+              "value": 64189
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 85585
+        }
+      ]
+    }
+  },
+  "2024": {
+    "GE-AB": {
+      "id": "GE-AB",
+      "total_visitors": 570862,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 45773,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 54129,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 29534,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 21075,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 41963,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 98749,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 50001,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 81249,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 35651,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 37172,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 38497,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 37069,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 285431,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 114172
+            },
+            {
+              "label": "Poland",
+              "value": 171258
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 171258,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 85629
+            },
+            {
+              "label": "Gulf States",
+              "value": 85629
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 114172
+        }
+      ]
+    },
+    "GE-AJ": {
+      "id": "GE-AJ",
+      "total_visitors": 517857,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 56786,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 56032,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 14457,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 29885,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 31613,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 63458,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 89635,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 43085,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 27708,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 25471,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 27767,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 51960,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 258928,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 103571
+            },
+            {
+              "label": "Poland",
+              "value": 155357
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 155357,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 77678
+            },
+            {
+              "label": "Gulf States",
+              "value": 77678
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 103571
+        }
+      ]
+    },
+    "GE-GU": {
+      "id": "GE-GU",
+      "total_visitors": 522019,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 59098,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 23436,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 25748,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 19658,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 36785,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 74511,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 48972,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 91878,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 26699,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 31554,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 20815,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 62865,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 261009,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 104403
+            },
+            {
+              "label": "Poland",
+              "value": 156605
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 156605,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 78302
+            },
+            {
+              "label": "Gulf States",
+              "value": 78302
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 104403
+        }
+      ]
+    },
+    "GE-IM": {
+      "id": "GE-IM",
+      "total_visitors": 485322,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 51603,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 28287,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 27321,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 39839,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 33937,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 45062,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 89603,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 43169,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 25527,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 39785,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 21352,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 39837,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 242661,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 97064
+            },
+            {
+              "label": "Poland",
+              "value": 145596
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 145596,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 72798
+            },
+            {
+              "label": "Gulf States",
+              "value": 72798
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 97064
+        }
+      ]
+    },
+    "GE-KA": {
+      "id": "GE-KA",
+      "total_visitors": 421970,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 26592,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 54177,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 26670,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25341,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 18727,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 54099,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 62779,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 47267,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 15079,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 16542,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 28172,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 46525,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 210985,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 84394
+            },
+            {
+              "label": "Poland",
+              "value": 126591
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 126591,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 63295
+            },
+            {
+              "label": "Gulf States",
+              "value": 63295
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 84394
+        }
+      ]
+    },
+    "GE-KK": {
+      "id": "GE-KK",
+      "total_visitors": 486030,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 43818,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 29334,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 32887,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 17092,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 14531,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 75547,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 81137,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 98633,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 20256,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 32908,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 16790,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 23097,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 243015,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 97206
+            },
+            {
+              "label": "Poland",
+              "value": 145809
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 145809,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 72904
+            },
+            {
+              "label": "Gulf States",
+              "value": 72904
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 97206
+        }
+      ]
+    },
+    "GE-MM": {
+      "id": "GE-MM",
+      "total_visitors": 484833,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 37333,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 25067,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 41991,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 18368,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 35103,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 75558,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 94255,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 68106,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 19496,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 25075,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18452,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 26029,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 242416,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 96966
+            },
+            {
+              "label": "Poland",
+              "value": 145449
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 145449,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 72724
+            },
+            {
+              "label": "Gulf States",
+              "value": 72724
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 96966
+        }
+      ]
+    },
+    "GE-RL": {
+      "id": "GE-RL",
+      "total_visitors": 499199,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 26980,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 43467,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 41490,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 29033,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 34141,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 75502,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 72439,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 52696,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 17694,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 26776,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18145,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 60836,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 249599,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 99839
+            },
+            {
+              "label": "Poland",
+              "value": 149759
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 149759,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 74879
+            },
+            {
+              "label": "Gulf States",
+              "value": 74879
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 99839
+        }
+      ]
+    },
+    "GE-SZ": {
+      "id": "GE-SZ",
+      "total_visitors": 504566,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 46956,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 35380,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 22386,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 32818,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 32540,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 98784,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 48408,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 68320,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 36708,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 27867,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 28534,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 25865,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 252283,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 100913
+            },
+            {
+              "label": "Poland",
+              "value": 151369
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 151369,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 75684
+            },
+            {
+              "label": "Gulf States",
+              "value": 75684
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 100913
+        }
+      ]
+    },
+    "GE-SJ": {
+      "id": "GE-SJ",
+      "total_visitors": 448921,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 44524,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 39104,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 41333,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 32659,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 28604,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 61361,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 61585,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 38416,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 16753,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 31473,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 22078,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 31031,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 224460,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 89784
+            },
+            {
+              "label": "Poland",
+              "value": 134676
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 134676,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 67338
+            },
+            {
+              "label": "Gulf States",
+              "value": 67338
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 89784
+        }
+      ]
+    },
+    "GE-SK": {
+      "id": "GE-SK",
+      "total_visitors": 475727,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 32039,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 35601,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 27734,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24495,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 16073,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 92893,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 83279,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 41226,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22090,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 32702,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 20343,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 47252,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 237863,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 95145
+            },
+            {
+              "label": "Poland",
+              "value": 142718
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 142718,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 71359
+            },
+            {
+              "label": "Gulf States",
+              "value": 71359
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 95145
+        }
+      ]
+    },
+    "GE-TB": {
+      "id": "GE-TB",
+      "total_visitors": 499368,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 40782,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 28578,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 27106,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 27594,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 21499,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 90359,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 89918,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 42609,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 30421,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 32762,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 31618,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 36122,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 249684,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 99873
+            },
+            {
+              "label": "Poland",
+              "value": 149810
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 149810,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 74905
+            },
+            {
+              "label": "Gulf States",
+              "value": 74905
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 99873
+        }
+      ]
+    }
+  },
+  "2025": {
+    "GE-AB": {
+      "id": "GE-AB",
+      "total_visitors": 505879,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 63553,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 42759,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 41256,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 23055,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 33373,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 70496,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 84037,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 38572,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 23481,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 32862,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 18069,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 34366,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 252939,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 101175
+            },
+            {
+              "label": "Poland",
+              "value": 151763
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 151763,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 75881
+            },
+            {
+              "label": "Gulf States",
+              "value": 75881
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 101175
+        }
+      ]
+    },
+    "GE-AJ": {
+      "id": "GE-AJ",
+      "total_visitors": 572781,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 31752,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 43807,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 43476,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 30418,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 41391,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 102697,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 93318,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 46608,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 33030,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 15297,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 33939,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 57048,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 286390,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 114556
+            },
+            {
+              "label": "Poland",
+              "value": 171834
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 171834,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 85917
+            },
+            {
+              "label": "Gulf States",
+              "value": 85917
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 114556
+        }
+      ]
+    },
+    "GE-GU": {
+      "id": "GE-GU",
+      "total_visitors": 592894,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 25042,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 66699,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 32169,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 22932,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 27949,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 112410,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 71917,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 88582,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 25111,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 43974,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 19072,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 57037,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 296447,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 118578
+            },
+            {
+              "label": "Poland",
+              "value": 177868
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 177868,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 88934
+            },
+            {
+              "label": "Gulf States",
+              "value": 88934
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 118578
+        }
+      ]
+    },
+    "GE-IM": {
+      "id": "GE-IM",
+      "total_visitors": 532740,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 59060,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 31520,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 35640,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 29874,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 31609,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 81408,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 69742,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 59062,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 19587,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 36610,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 30811,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 47817,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 266370,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 106548
+            },
+            {
+              "label": "Poland",
+              "value": 159822
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 159822,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 79911
+            },
+            {
+              "label": "Gulf States",
+              "value": 79911
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 106548
+        }
+      ]
+    },
+    "GE-KA": {
+      "id": "GE-KA",
+      "total_visitors": 571531,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 23688,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 23226,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 21228,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 35526,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 40947,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 109541,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 103515,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 98463,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 16402,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 40986,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 24604,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 33405,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 285765,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 114306
+            },
+            {
+              "label": "Poland",
+              "value": 171459
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 171459,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 85729
+            },
+            {
+              "label": "Gulf States",
+              "value": 85729
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 114306
+        }
+      ]
+    },
+    "GE-KK": {
+      "id": "GE-KK",
+      "total_visitors": 550570,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 24990,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 57010,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 26218,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 29239,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 43203,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 104385,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 74733,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 73110,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 20277,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 21591,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 43198,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 32616,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 275285,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 110114
+            },
+            {
+              "label": "Poland",
+              "value": 165171
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 165171,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 82585
+            },
+            {
+              "label": "Gulf States",
+              "value": 82585
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 110114
+        }
+      ]
+    },
+    "GE-MM": {
+      "id": "GE-MM",
+      "total_visitors": 462093,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 42783,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 25645,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 40003,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 31993,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 16230,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 45416,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 41955,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 84513,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22203,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 39897,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 25195,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 46260,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 231046,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 92418
+            },
+            {
+              "label": "Poland",
+              "value": 138627
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 138627,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 69313
+            },
+            {
+              "label": "Gulf States",
+              "value": 69313
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 92418
+        }
+      ]
+    },
+    "GE-RL": {
+      "id": "GE-RL",
+      "total_visitors": 554837,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 45351,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 61202,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 19689,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 17212,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 22344,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 58826,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 89823,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 94395,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 31258,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 39049,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 40258,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 35430,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 277418,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 110967
+            },
+            {
+              "label": "Poland",
+              "value": 166451
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 166451,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 83225
+            },
+            {
+              "label": "Gulf States",
+              "value": 83225
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 110967
+        }
+      ]
+    },
+    "GE-SZ": {
+      "id": "GE-SZ",
+      "total_visitors": 525851,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 33111,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 63738,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 30169,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 24405,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 20154,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 93881,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 84427,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 62985,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 23775,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 16806,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 22288,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 50112,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 262925,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 105170
+            },
+            {
+              "label": "Poland",
+              "value": 157755
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 157755,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 78877
+            },
+            {
+              "label": "Gulf States",
+              "value": 78877
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 105170
+        }
+      ]
+    },
+    "GE-SJ": {
+      "id": "GE-SJ",
+      "total_visitors": 578794,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 60129,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 23613,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 26655,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 39513,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 24388,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 106346,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 90960,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 77655,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 26253,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 16660,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 41440,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 45182,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 289397,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 115758
+            },
+            {
+              "label": "Poland",
+              "value": 173638
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 173638,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 86819
+            },
+            {
+              "label": "Gulf States",
+              "value": 86819
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 115758
+        }
+      ]
+    },
+    "GE-SK": {
+      "id": "GE-SK",
+      "total_visitors": 577547,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 40137,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 30984,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 34351,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 25818,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 35052,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 72600,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 96465,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 101610,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 40266,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 20295,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 16915,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 63054,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 288773,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 115509
+            },
+            {
+              "label": "Poland",
+              "value": 173264
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 173264,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 86632
+            },
+            {
+              "label": "Gulf States",
+              "value": 86632
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 115509
+        }
+      ]
+    },
+    "GE-TB": {
+      "id": "GE-TB",
+      "total_visitors": 528121,
+      "monthly": [
+        {
+          "m": "Jan",
+          "v": 63659,
+          "s": "winter"
+        },
+        {
+          "m": "Feb",
+          "v": 29558,
+          "s": "winter"
+        },
+        {
+          "m": "Mar",
+          "v": 22263,
+          "s": "spring"
+        },
+        {
+          "m": "Apr",
+          "v": 35926,
+          "s": "spring"
+        },
+        {
+          "m": "May",
+          "v": 25569,
+          "s": "spring"
+        },
+        {
+          "m": "Jun",
+          "v": 76143,
+          "s": "summer"
+        },
+        {
+          "m": "Jul",
+          "v": 38227,
+          "s": "summer"
+        },
+        {
+          "m": "Aug",
+          "v": 90577,
+          "s": "summer"
+        },
+        {
+          "m": "Sep",
+          "v": 22444,
+          "s": "autumn"
+        },
+        {
+          "m": "Oct",
+          "v": 44010,
+          "s": "autumn"
+        },
+        {
+          "m": "Nov",
+          "v": 15780,
+          "s": "autumn"
+        },
+        {
+          "m": "Dec",
+          "v": 63965,
+          "s": "winter"
+        }
+      ],
+      "continents": [
+        {
+          "label": "Europe",
+          "value": 264060,
+          "subSegments": [
+            {
+              "label": "Germany",
+              "value": 105624
+            },
+            {
+              "label": "Poland",
+              "value": 158436
+            }
+          ]
+        },
+        {
+          "label": "Asia",
+          "value": 158436,
+          "subSegments": [
+            {
+              "label": "Israel",
+              "value": 79218
+            },
+            {
+              "label": "Gulf States",
+              "value": 79218
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "value": 105624
+        }
+      ]
+    }
+  }
+}

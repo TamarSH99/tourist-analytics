@@ -1,0 +1,62 @@
+{
+  "GE-TB": {
+    "name": "Tbilisi",
+    "monuments": ["Narikala Fortress", "Holy Trinity Cathedral", "Old Tbilisi"],
+    "color": "#3182CE"
+  },
+  "GE-AJ": {
+    "name": "Adjara",
+    "monuments": ["Gonio Fortress", "Batumi Botanical Garden", "Petra Fortress"],
+    "color": "#DD6B20"
+  },
+  "GE-IM": {
+    "name": "Imereti",
+    "monuments": ["Gelati Monastery", "Bagrati Cathedral", "Prometheus Cave"],
+    "color": "#38A169"
+  },
+  "GE-KA": {
+    "name": "Kakheti",
+    "monuments": ["Alaverdi Monastery", "Sighnaghi Wall", "Gremi Complex"],
+    "color": "#805AD5"
+  },
+  "GE-SZ": {
+    "name": "Samegrelo-Zemo Svaneti",
+    "monuments": ["Dadiani Palaces", "Enguri Dam", "Ushguli Tower Houses"],
+    "color": "#319795"
+  },
+  "GE-KK": {
+    "name": "Kvemo Kartli",
+    "monuments": ["Bolnisi Sioni", "Dmanisi Historic Site", "Birtvisi Fortress"],
+    "color": "#D53F8C"
+  },
+  "GE-SK": {
+    "name": "Shida Kartli",
+    "monuments": ["Uplistsikhe Cave Town", "Gori Fortress", "Ateni Sioni"],
+    "color": "#E53E3E"
+  },
+  "GE-MM": {
+    "name": "Mtskheta-Mtianeti",
+    "monuments": ["Jvari Monastery", "Svetitskhoveli Cathedral", "Ananuri Complex"],
+    "color": "#718096"
+  },
+  "GE-SJ": {
+    "name": "Samtskhe-Javakheti",
+    "monuments": ["Vardzia Cave City", "Rabati Castle", "Sapara Monastery"],
+    "color": "#D69E2E"
+  },
+  "GE-GU": {
+    "name": "Guria",
+    "monuments": ["Shemokmedi Monastery", "Ureki Beach", "Gomis Mta"],
+    "color": "#48BB78"
+  },
+  "GE-RL": {
+    "name": "Racha-Lechkhumi and Kvemo Svaneti",
+    "monuments": ["Nikortsminda Cathedral", "Barakoni Church", "Shaori Lake"],
+    "color": "#00B5D8"
+  },
+  "GE-AB": {
+    "name": "Abkhazia",
+    "monuments": ["New Athos Cave", "Bzipi Fortress", "Anacopia Fortress"],
+    "color": "#A0AEC0"
+  }
+}
