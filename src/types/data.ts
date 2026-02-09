@@ -67,3 +67,32 @@ export interface DashboardFilters {
   viewMode: 'yearly' | 'monthly';
   comparisonMode: boolean;
 }
+
+/**
+ * GeoJSON Types for Georgia regions
+ */
+export interface GeorgiaRegionProperties {
+  GID_1: string;           // e.g., "GEO.1_1"
+  GID_0: string;           // Country code "GEO"
+  COUNTRY: string;         // "Georgia"
+  NAME_1: string;          // Region name e.g., "Tbilisi"
+  VARNAME_1?: string;      // Alternative name e.g., "Sokhumi"
+  ISO_1: string;           // ISO code e.g., "GE-TB"
+  HASC_1?: string;         // HASC code e.g., "GE.TB"
+}
+
+export interface GeorgiaRegionGeometry {
+  type: "Polygon" | "MultiPolygon";
+  coordinates: number[][][] | number[][][][];
+}
+
+export interface GeorgiaRegionFeature {
+  type: "Feature";
+  properties: GeorgiaRegionProperties;
+  geometry: GeorgiaRegionGeometry;
+}
+
+export interface GeorgiaGeoJSON {
+  type: "FeatureCollection";
+  features: GeorgiaRegionFeature[];
+}
