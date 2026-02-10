@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import geoData from "../../assets/data/geodata.json";
 import registry from "../../assets/data/registry.json";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
-import { toggleRegion } from "../../store/slices/statsSlice";
+import { toggleRegionSelection } from "../../store/slices/statsSlice"; 
 import { type GeorgiaGeoJSON, type RegistryDB } from "../../types/data";
 import MapControls from './MapControls';
 import { MAP_STYLES, MAP_CONFIG, TILE_LAYERS } from '../../constants/mapConstants';
@@ -19,7 +19,7 @@ const RegionMap = () => {
     const regionId = feature.properties.ISO_1;
     const regionName = REGISTRY[regionId]?.name || feature.properties.NAME_1;
 
-    // Simple tooltip with region name, tmp for now - can be enhanced with more info later
+    // Simple tooltip with region name
     layer.bindTooltip(regionName, { 
       sticky: true, 
       direction: 'top',
@@ -27,7 +27,7 @@ const RegionMap = () => {
     });
 
     layer.on({
-      click: () => dispatch(toggleRegion(regionId)),
+      click: () => dispatch(toggleRegionSelection(regionId)), // Changed from toggleRegion
       mouseover: (e: any) => {
         const layer = e.target;
         layer.setStyle({ 
@@ -60,10 +60,10 @@ const RegionMap = () => {
   return (
     <Paper sx={{ 
       position: 'relative', 
-      height: "80vh", 
+      height: "72vh", 
       width: '100%', 
       borderRadius: 4, 
-      overflow: 'hidden' 
+      overflow: 'hidden',
     }}>
       <MapContainer 
         center={MAP_CONFIG.CENTER} 

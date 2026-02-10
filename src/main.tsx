@@ -1,15 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
-import { ThemeProvider, createTheme } from '@mui/material/styles'
+import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { store } from './store'
 import App from './App'
-
-const theme = createTheme({
-  palette: {
-    mode: 'light',
-  },
-});
+import theme from './theme/theme';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
