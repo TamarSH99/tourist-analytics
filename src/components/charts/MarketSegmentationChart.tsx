@@ -1,38 +1,42 @@
-import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import { useAggregation } from '../../hooks/useAggregation';
 import { useAppSelector } from '../../store/hooks';
-import { Paper, Typography, Box } from '@mui/material';
+import { Paper, Box, useTheme } from '@mui/material';
+import InsightsPanel from '../shared/InsightsPanel';
+import CustomTooltip from '../shared/CustomTooltip';
 
 const MarketSegmentationChart = () => {
+  const theme = useTheme();
   const { continentsData, comparisonData } = useAggregation();
   const { selectedRegionIds, selectedYear, viewMode, isComparisonMode } = useAppSelector(state => state.stats);
 
-
-  const getTitle = () => {
+  // Create insights object similar to VisitorDynamicsChart
+  const insights = (() => {
     if (isComparisonMode && comparisonData) {
-      return `Visitor Origins Comparison: ${comparisonData.region1} vs ${comparisonData.region2}`;
-    }
-    
-    const regionText = selectedRegionIds.length > 0
-      ? `Selected Regions (${selectedRegionIds.length})`
-      : 'All Georgia';
-    return `Visitor Origins - ${regionText}`;
-  };
-
-  const getSubtitle = () => {
-    if (isComparisonMode && comparisonData) {
-      return `Comparing market segmentation between regions for ${selectedYear}`;
+      return {
+        title: `Visitor Origins Comparison: ${comparisonData.region1} vs ${comparisonData.region2}`,
+        subtitle: `Comparing market segmentation between regions for ${selectedYear}`,
+      };
     }
 
     if (isComparisonMode) {
-      return 'Select two regions to compare market segmentation';
+      return {
+        title: 'Market Segmentation',
+        subtitle: 'Select two regions to compare market segmentation',
+      };
     }
 
     if (!continentsData || continentsData.length === 0) {
-      return 'No data available';
+      return {
+        title: 'Market Segmentation',
+        subtitle: 'No data available',
+      };
     }
 
-    console.log('Continents Data:', continentsData); // Debug log to check data structure
+    const regionText = selectedRegionIds.length > 0
+      ? `Selected Regions (${selectedRegionIds.length})`
+      : 'All Georgia';
+
     const topMarket = continentsData.reduce((max, continent) => {
       const maxValue = max.value || 0;
       const continentValue = continent.value || 0;
@@ -41,83 +45,173 @@ const MarketSegmentationChart = () => {
 
     const totalVisitors = continentsData.reduce((sum, continent) => sum + (continent.value || 0), 0);
     const topMarketPercentage = totalVisitors > 0 ? ((topMarket.value || 0) / totalVisitors * 100) : 0;
-    
-    return topMarket.name ? `${topMarket.name} leads with ${topMarketPercentage.toFixed(0)}% market share` : 'No data available';
-  };
+
+    return {
+      title: `Visitor Origins - ${regionText}`,
+      subtitle: topMarket.name
+        ? `${topMarket.name} leads with ${topMarketPercentage.toFixed(0)}% market share`
+        : 'No data available',    };
+  })();
+
+  // Format function for continent visitor counts
+  const formatContinentValue = (value: number) => `${(value / 1000).toFixed(0)}K`;
 
   // Safety check for empty data
   if (!continentsData || continentsData.length === 0) {
     return (
-      <Paper sx={{ p: 2, height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-        <Typography variant="h5">Market Segmentation</Typography>
-        <Typography variant="h6">No data available</Typography>
-        <Typography variant="body2" color="gray">
-          {isComparisonMode ? 'Select two regions to compare' : 'Select regions or view all Georgia'}
-        </Typography>
+      <Paper
+        sx={{
+          p: 2,
+          height: '240px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          background: `linear-gradient(145deg, ${theme.palette.background.paper} 0%, ${theme.palette.grey[50]} 100%)`,
+          border: `1px solid ${theme.palette.divider}`,
+          borderRadius: 2,
+          margin: 0
+        }}
+      >
+        <InsightsPanel
+          title={insights.title}
+          subtitle={insights.subtitle}
+        />
       </Paper>
     );
   }
 
   return (
-    <Paper sx={{ p: 2, height: '100%', display: 'flex', flexDirection: 'column' }}>
-      <Typography >{getTitle()}</Typography>
-      <Typography >{getSubtitle()}</Typography>
-      
-      <Box sx={{ mb: 2 }}>
-        <Typography variant="body2" sx={{ color: 'gray' }}>
-          {viewMode === 'yearly' ? 'Multi-year' : 'Monthly'} view | {isComparisonMode ? 'Comparison Mode' : 'Normal Mode'}
-        </Typography>
-        
-        {/* Show data source note - always shows which year's data is being used */}
-        <Typography variant="body2" sx={{ fontStyle: 'italic', color: 'info.main', mt: 1 }}>
-          Showing continent data for year: <strong>{selectedYear}</strong>
-          {viewMode === 'monthly' && (
-            <span> (continent breakdowns are yearly totals only)</span>
-          )}
-        </Typography>
-      </Box>
+    <Paper
+      sx={{
+        p: 2,
+        height: 360,
+        display: 'flex',
+        flexDirection: 'column',
+        background: `linear-gradient(145deg, ${theme.palette.background.paper} 0%, ${theme.palette.grey[50]} 100%)`,
+        border: 'none',
+      }}
+    >
+      <InsightsPanel
+        title={insights.title}
+        subtitle={insights.subtitle}
+        recommendation={insights.recommendation}
+      />
 
-      <Box sx={{ flex: 1, minHeight: 200 }}>
+      <Box sx={{ flex: 1, minHeight: 250, mt: 1 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <RadarChart 
+          <RadarChart
             data={continentsData}
-            key={`${selectedYear}-${selectedRegionIds.join('-')}-${isComparisonMode}`} // Force re-render when year changes
-            margin={{ top: 20, right: 30, bottom: 20, left: 30 }}
+            margin={{ top: 10, right: 30, bottom: 10, left: 30 }}
+            // Removed the key prop to prevent complete redraws
           >
-            <PolarGrid />
-            <PolarAngleAxis dataKey="name" tick={{ fontSize: 14 }} />
-            <PolarRadiusAxis
-              tick={{ fontSize: 12 }}
-              tickFormatter={(value) => `${(value / 1000).toFixed(0)}K`}
+            <defs>
+              <filter id="radarGlow">
+                <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                <feMerge> 
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+              <linearGradient id="primaryRadarGradient" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stopColor={theme.charts.primary} stopOpacity={0.6}/>
+                <stop offset="100%" stopColor={theme.charts.primary} stopOpacity={0.1}/>
+              </linearGradient>
+              <linearGradient id="secondaryRadarGradient" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stopColor={theme.charts.secondary} stopOpacity={0.6}/>
+                <stop offset="100%" stopColor={theme.charts.secondary} stopOpacity={0.1}/>
+              </linearGradient>
+            </defs>
+
+            <PolarGrid
+              stroke={theme.charts.grid}
             />
-            
+
+            <PolarAngleAxis
+              dataKey="name"
+              tick={{
+                fontSize: 16,
+                fill: theme.palette.text.secondary,
+                fontWeight: 500,
+              }}
+            />
+
+            <PolarRadiusAxis
+              tick={{
+                fontSize: 12,
+                fill: theme.palette.text.secondary,
+                fontWeight: 500,
+              }}
+              tickFormatter={formatContinentValue}
+              stroke={theme.charts.axis}
+              strokeWidth={1}
+            />
+
+            <Tooltip
+              content={<CustomTooltip formatValue={formatContinentValue} variant="compact" />}
+            />
+
             {isComparisonMode && comparisonData ? (
               <>
                 <Radar
                   name={comparisonData.region1}
                   dataKey={comparisonData.region1}
-                  stroke="#3b82f6"
-                  fill="#3b82f6"
-                  fillOpacity={0.2}
-                  strokeWidth={2}
+                  stroke={theme.charts.primary}
+                  fill="url(#primaryRadarGradient)"
+                  fillOpacity={0.4}
+                  strokeWidth={3}
+                  dot={{
+                    fill: theme.charts.primary,
+                    strokeWidth: 2,
+                    r: 5,
+                    stroke: theme.palette.background.paper,
+                    filter: "url(#radarGlow)"
+                  }}
+                  // Add animation duration
+                  animationDuration={800}
+                  animationEasing="ease-in-out"
                 />
                 <Radar
                   name={comparisonData.region2}
                   dataKey={comparisonData.region2}
-                  stroke="#ef4444"
-                  fill="#ef4444"
-                  fillOpacity={0.2}
-                  strokeWidth={2}
+                  stroke={theme.charts.secondary}
+                  fill="url(#secondaryRadarGradient)"
+                  fillOpacity={0.4}
+                  strokeWidth={3}
+                  dot={{
+                    fill: theme.charts.secondary,
+                    strokeWidth: 2,
+                    r: 5,
+                    stroke: theme.palette.background.paper,
+                    filter: "url(#radarGlow)"
+                  }}
+                  animationDuration={800}
+                  animationEasing="ease-in-out"
+                />
+                <Legend
+                  wrapperStyle={{
+                    paddingTop: '20px',
+                    fontSize: '14px',
+                    fontWeight: 500,
+                    color: theme.palette.text.primary,
+                  }}
                 />
               </>
             ) : (
               <Radar
                 name="Visitors"
                 dataKey="value"
-                stroke="#3b82f6"
-                fill="#3b82f6"
-                fillOpacity={0.3}
-                strokeWidth={2}
+                stroke={theme.charts.primary}
+                fill={theme.charts.primary}
+                fillOpacity={0.5}
+                strokeWidth={3}
+                dot={{
+                  fill: theme.charts.primary,
+                  strokeWidth: 2,
+                  r: 5,
+                  stroke: theme.palette.background.paper,
+                  filter: "url(#radarGlow)"
+                }}
               />
             )}
           </RadarChart>

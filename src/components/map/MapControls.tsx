@@ -8,7 +8,7 @@ interface MapControlsProps {
 
 const MapLegend = () => (
   <Paper sx={{ p: 1, mb: 2, opacity: 0.9 }}>
-    <Typography variant="caption" fontWeight="bold" display="block">
+    <Typography variant="caption" fontWeight="bold" display="block" fontSize={'small'}>
       Legend
     </Typography>
     <Box sx={{ display: 'flex', alignItems: 'center', mt: 0.5 }}>
@@ -17,20 +17,20 @@ const MapLegend = () => (
         height: 12, 
         bgcolor: 'blue', 
         mr: 1, 
-        borderRadius: '2px' 
+        borderRadius: '2px',
       }} />
-      <Typography variant="caption">Selected</Typography>
+      <Typography variant="caption" fontSize={'small'}>Selected</Typography>
     </Box>
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ 
         width: 12, 
         height: 12, 
         bgcolor: 'white', 
-        border: '1px solid white', 
+        border: '1px solid gray', 
         mr: 1, 
-        borderRadius: '2px' 
+        borderRadius: '2px',
       }} />
-      <Typography variant="caption">Available</Typography>
+      <Typography variant="caption" fontSize={'small'}>Available</Typography>
     </Box>
   </Paper>
 );

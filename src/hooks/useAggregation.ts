@@ -9,12 +9,6 @@ export const useAggregation = () => {
   const { selectedYear, selectedMonth, selectedRegionIds, viewMode, isComparisonMode, comparisonRegions } = useAppSelector((state) => state.stats);
 
   return useMemo(() => {
-    console.log('=== AGGREGATION DEBUG ===');
-    console.log('Selected year:', selectedYear);
-    console.log('View mode:', viewMode);
-    console.log('Comparison mode:', isComparisonMode);
-    console.log('Comparison regions:', comparisonRegions);
-    
     const yearData = DATA[selectedYear.toString()];
     
     if (!yearData) {
@@ -22,7 +16,7 @@ export const useAggregation = () => {
         visitorData: [], 
         continentsData: [], 
         comparisonData: null,
-        insights: { title: 'No Data', subtitle: '', recommendation: '' } 
+        insights: { title: 'No Data Available', subtitle: 'Unable to load tourism statistics', recommendation: 'Please select a different year or region' } 
       };
     }
 
@@ -100,16 +94,32 @@ function getNormalData(yearData: any, regionsToSum: string[], selectedYear: numb
       }));
     }
 
+    // Calculate insights
     const totalVisitors = continentsData.reduce((sum, continent) => sum + (continent.value || 0), 0);
     const topContinent = continentsData.length > 0 
       ? continentsData.reduce((max, continent) => 
           (continent.value || 0) > (max.value || 0) ? continent : max)
       : { name: '', value: 0 };
 
+    // Get growth trend for recommendation
+    const currentYearTotal = visitorData.find(item => item.name === selectedYear.toString())?.visitors || 0;
+    const previousYearTotal = visitorData.find(item => item.name === (selectedYear - 1).toString())?.visitors || 0;
+    const growthRate = previousYearTotal > 0 ? ((currentYearTotal - previousYearTotal) / previousYearTotal * 100) : 0;
+
+    const regionText = regionsToSum.length === Object.keys(yearData).length ? 'All Georgia' : `${regionsToSum.length} selected region${regionsToSum.length === 1 ? '' : 's'}`;
+
     const insights = {
-      title: `${selectedYear} Tourism Overview`,
-      subtitle: totalVisitors > 0 ? `${(totalVisitors / 1000000).toFixed(1)}M total visitors` : 'No data available',
-      recommendation: topContinent.name ? `${topContinent.name} leads with ${((topContinent.value || 0) / totalVisitors * 100).toFixed(0)}% market share` : ''
+      title: viewMode === 'yearly' ? 'Tourism Trends Analysis' : `Monthly Tourism Pattern`,
+      subtitle: viewMode === 'yearly' 
+        ? `Multi-year visitor flow analysis for ${regionText}` 
+        : `${selectedYear} monthly visitor distribution for ${regionText}`,
+      recommendation: totalVisitors > 0 
+        ? (viewMode === 'yearly' 
+            ? (growthRate > 5 ? `Strong growth trend: +${growthRate.toFixed(1)}% year-over-year increase` 
+               : growthRate < -5 ? `Declining trend: ${growthRate.toFixed(1)}% year-over-year decrease` 
+               : `Stable tourism pattern with ${(totalVisitors / 1000000).toFixed(1)}M total visitors`)
+            : `Peak season analysis shows ${(Math.max(...visitorData.map(d => d.visitors)) / 1000).toFixed(0)}K monthly high`)
+        : 'Insufficient data for trend analysis'
     };
 
     return { visitorData, continentsData, comparisonData: null, insights };
@@ -119,7 +129,7 @@ function getNormalData(yearData: any, regionsToSum: string[], selectedYear: numb
       visitorData: [], 
       continentsData: [], 
       comparisonData: null,
-      insights: { title: 'Error Loading Data', subtitle: '', recommendation: '' } 
+      insights: { title: 'Data Processing Error', subtitle: 'Unable to process tourism data', recommendation: 'Please check data integrity or try refreshing' } 
     };
   }
 }
@@ -137,7 +147,7 @@ function getComparisonData(yearData: any, comparisonRegions: any, selectedYear: 
         visitorData: [], 
         continentsData: [], 
         comparisonData: null,
-        insights: { title: 'Comparison Data Unavailable', subtitle: '', recommendation: '' } 
+        insights: { title: 'Regional Comparison', subtitle: 'Missing data for selected regions', recommendation: 'Please select regions with available data for comparison' } 
       };
     }
 
@@ -228,10 +238,25 @@ function getComparisonData(yearData: any, comparisonRegions: any, selectedYear: 
       [region2]: region2Continents[continent] || 0,
     }));
 
+    // Calculate comparison insights
+    const region1Total = region1Data.total_visitors || 0;
+    const region2Total = region2Data.total_visitors || 0;
+    const totalDifference = Math.abs(region1Total - region2Total);
+    const percentageDifference = Math.max(region1Total, region2Total) > 0 
+      ? (totalDifference / Math.max(region1Total, region2Total) * 100) 
+      : 0;
+
+    const leadingRegion = region1Total > region2Total ? region1 : region2;
+    const leadingTotal = Math.max(region1Total, region2Total);
+
     const insights = {
-      title: `Comparison: ${region1} vs ${region2}`,
-      subtitle: `${selectedYear} - ${viewMode} analysis`,
-      recommendation: 'Comparing tourism patterns between selected regions'
+      title: 'Regional Performance Comparison',
+      subtitle: `Comparative analysis of ${region1} vs ${region2} tourism metrics`,
+      recommendation: percentageDifference > 20 
+        ? `${leadingRegion} outperforms significantly with ${(leadingTotal / 1000).toFixed(0)}K visitors (+${percentageDifference.toFixed(0)}% advantage)`
+        : percentageDifference > 5
+        ? `Moderate performance gap: ${leadingRegion} leads by ${percentageDifference.toFixed(0)}%`
+        : 'Both regions show similar tourism performance levels'
     };
 
     return { 
@@ -246,7 +271,7 @@ function getComparisonData(yearData: any, comparisonRegions: any, selectedYear: 
       visitorData: [], 
       continentsData: [], 
       comparisonData: null,
-      insights: { title: 'Comparison Error', subtitle: '', recommendation: '' } 
+      insights: { title: 'Comparison Analysis Error', subtitle: 'Unable to process comparison data', recommendation: 'Please verify region selection and try again' } 
     };
   }
 }
